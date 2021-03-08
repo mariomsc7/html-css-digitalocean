@@ -15,35 +15,43 @@
 
 <body>
     
-    <!-- HEADER NAVIGATION -->
-    <header>
-        <nav>
-            <div class="container">
-                <div class="row header-row">
-                    <div class="logo-size float-left">
-                        <img src="./img/logo.png" alt="">
-                    </div>
-                    <div class="float-left">
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+        <div class="container">
+            <!-- LOGO -->
+            <div class="header-logo logo-size float-left">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <!-- NAV LEFT -->
+            <div class="nav-left float-left">
+                <div class="row hidden-xs hidden-sm">
+                    <nav>
                         <ul>
-                            <li><a href="">Products</a></li>
+                            <li><a href="">Products<i class="fas fa-angle-down"></i></a></li>
                             <li><a href="">Customers</a></li>
-                            <li><a href="">Community</a></li>
+                            <li><a href="">Community<i class="fas fa-angle-down"></i></a></li>
                             <li><a href="">Pricing</a></li>
                         </ul>
-                    </div>
-                    <div class="float-left">
+                    </nav>
+                </div>
+
+            </div>
+            <!-- NAV RIGHT -->
+            <div class="nav-right float-left">
+                <div class="row hidden-xs hidden-sm">
+                    <nav>
                         <ul>
                             <li><a href="">Docs</a></li>
-                            <li><a href="">Support</a></li>
+                            <li><a href="">Support<i class="fas fa-angle-down"></i></a></li>
                             <li><a href="">Login</a></li>
-                            <li><a href="">Button</a></li>
+                            <li><a class="btn-sign-in" href="">Sign Up</a></li>
                         </ul>
-                    </div>
-
+                    </nav>
                 </div>
+
             </div>
-        </nav>
-     </header>
+        </div>
+    </header>
 
 
 

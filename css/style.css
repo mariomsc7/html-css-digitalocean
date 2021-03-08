@@ -1,37 +1,69 @@
 /* HEADER NAV*/
 
-nav {
-    height: 80px;
-    width: 100%;
+.main-header {
+    line-height: 80px;
+}
+
+.main-header .header-logo {
+    width: 15%;
+    margin: 0;
+}
+
+.main-header .nav-left {
+    margin-left: 50px;
+}
+
+.main-header .nav-right {
+    text-align: right;
+    margin-left: 50px;
+}
+
+.logo-size {
+    width: 150px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.logo-size img {
+    width: 150px;
+}
+
+.right-menu {
+    text-align: right;
 }
 
 nav ul li {
     display: inline-block;
-    padding-right: 10px;
+    margin-right: 15px;
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
-.header-row {
-    padding-top: 30px;
-    padding-bottom: 30px;
+nav ul li a {
+    color: black;
 }
+
+.btn-sign-in {
+    color: dodgerblue;
+    padding: 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+}
+
+
 
 
 /* UTILITIES */
-
-/* IMG SIZE */
-.logo-size {
-    width: 150px;
-    display: inline-block;
-}
-
-.logo-size img {
-    width: 100%;
-    vertical-align: middle;
-}
-
 /* FLOAT */
 .float-left {
     float: left;
 }
 
-/* TEXT COLOR */
+.clearfix::after {
+    display:table;
+    content: "";
+    clear: both;
+}
+
+
