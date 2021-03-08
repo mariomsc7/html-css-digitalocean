@@ -1,69 +1,30 @@
-/* HEADER NAV*/
+/* MAIN HEADER --------------------------------------------*/
 
-.main-header {
-    line-height: 80px;
+.navbar-default {
+    background: white;
+    border: none;
+    padding: 20px 0;
 }
 
-.main-header .header-logo {
-    width: 15%;
-    margin: 0;
+ul.navbar-left {
+    padding-left: 100px;
 }
 
-.main-header .nav-left {
-    margin-left: 50px;
-}
 
-.main-header .nav-right {
-    text-align: right;
-    margin-left: 50px;
-}
-
-.logo-size {
+.navbar img {
     width: 150px;
-    display: inline-block;
-    margin-right: 100px;
+    padding-top: 10px;
+    margin-left: 20px;
 }
 
-.logo-size img {
-    width: 150px;
+.nav>li>a {
+    margin-top: 20px;
+    padding: 0 15px;
 }
 
-.right-menu {
-    text-align: right;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 15px;
-    line-height: 80px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-nav ul li a {
-    color: black;
-}
-
-.btn-sign-in {
+.navbar-default .navbar-nav>li>a.btn-login {
     color: dodgerblue;
-    padding: 10px;
     border: 1px solid dodgerblue;
     border-radius: 5px;
+    padding: 10px;
 }
-
-
-
-
-/* UTILITIES */
-/* FLOAT */
-.float-left {
-    float: left;
-}
-
-.clearfix::after {
-    display:table;
-    content: "";
-    clear: both;
-}
-
-
