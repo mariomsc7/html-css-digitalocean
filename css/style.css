@@ -1,0 +1,37 @@
+/* HEADER NAV*/
+
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* UTILITIES */
+
+/* IMG SIZE */
+.logo-size {
+    width: 150px;
+    display: inline-block;
+}
+
+.logo-size img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* FLOAT */
+.float-left {
+    float: left;
+}
+
+/* TEXT COLOR */
