@@ -3,7 +3,7 @@
 .navbar-default {
     background: white;
     border: none;
-    padding: 20px 0;
+    line-height: 50px;
 }
 
 ul.navbar-left {
@@ -18,8 +18,7 @@ ul.navbar-left {
 }
 
 .nav>li>a {
-    margin-top: 20px;
-    padding: 0 15px;
+    line-height:50px;
 }
 
 .navbar-default .navbar-nav>li>a.btn-login {
