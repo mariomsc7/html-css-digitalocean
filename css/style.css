@@ -11,7 +11,7 @@
 }
 
 .navbar-left {
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .navbar-nav>li {
@@ -161,7 +161,7 @@
     font-size: 16px;
     font-weight: bolder;
     margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .brands h4 {
@@ -180,10 +180,10 @@
 
 .logos-img .box-img {
     display: inline-block;
-    max-height: 200px;
+    height: 80px;
 }
 
 .logos-img .box-img img {
     max-width: 100%;
-    height: 200px;
+    height: 80px;
 }
