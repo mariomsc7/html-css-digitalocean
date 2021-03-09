@@ -23,7 +23,8 @@
     padding-top: 0;
     padding-bottom: 0;
     line-height: 30px;
-    color: black; 
+    color: black;
+    font-weight: 600;
 } 
 
 .navbar-default .navbar-nav>li>a.btn-login {
@@ -48,4 +49,101 @@
     .navbar-header {
         float: none;
     }
+}
+
+/* GOOGLE LOGIN SECTION -----------------------------------*/
+
+.banner {
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+}
+
+.main-title {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.main-title h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.main-title p {
+    color: #bbcdff;
+    font-size: 23px;
+}
+
+.box-g {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+.box-g h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.box-g h2:last-of-type {
+    color: #006aff;
+    margin-top: 0;
+}
+
+.form-control.placeholder-text {
+    font-weight: bolder;
+}
+
+.btn-create {
+    background-color:#579aff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-create a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.btn-sign {
+    position: relative;
+    box-shadow: 1px 2px 1px #e3e3e3;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-sign img {
+    width: 18px;
+    position: absolute;
+    right: 93%;
+    top: 25%;
+}
+
+.btn-sign a {
+    color: #626262;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.terms {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.terms p {
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.terms p a {
+    text-decoration: underline;
 }
