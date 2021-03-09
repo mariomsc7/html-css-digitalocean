@@ -56,6 +56,7 @@
 .banner {
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
+    padding-bottom: 50px;
 }
 
 .main-title {
@@ -78,7 +79,7 @@
     background-color: white;
     border-radius: 5px;
     padding: 15px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .box-g h2 {
@@ -146,4 +147,30 @@
 
 .terms p a {
     text-decoration: underline;
+}
+
+/* BRAND LOGOS SECTION ------------------------------------*/
+
+.brands {
+    background-color: #f3f5f9;
+}
+
+.brands h3 {
+    color: #7b86a0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.logos-img {
+    text-align: center;
+}
+
+.logos-img .box-img {
+    display: inline-block;
+}
+
+.logos-img .box-img img {
+    margin-right: 0;
 }
