@@ -507,7 +507,7 @@
 /* FOOTER -------------------------------------------------*/
 
 footer {
-    /* background-color: #031c4e; */
+    background-color: #031c4e;
 }
 
 .footer-padding {
@@ -516,11 +516,38 @@ footer {
 
 /* LOGO COLUMN */
 
-.
+.footer-logo img {
+    padding: 10px 0;
+}
+
+.footer-logo p {
+    margin: 0;
+}
+
+.footer-logo p:first-of-type {
+    color: #8891a7;
+}
+
+.footer-logo p:last-of-type {
+    color: #4c5c7d;
+}
+
+.footer-logo i {
+    color: #7a859d;
+    font-size: 25px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
 
 /* COLUMNS */
 
 .company, .products, 
 .community, .support h5{
     color: white;
+    font-weight: 800;
+}
+
+.footer-box p a {
+    color: #7b869e;
+    font-weight: bold;
 }
