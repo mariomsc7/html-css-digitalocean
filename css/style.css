@@ -234,4 +234,9 @@
 
 .deploy p {
     color: #75809a;
+    font-size: 16px;
+}
+
+.nested .row {
+    padding-top: 0;
 }
