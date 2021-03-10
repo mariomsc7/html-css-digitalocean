@@ -310,10 +310,79 @@
 
 /* FEATURES SECTION ---------------------------------------*/
 
+.features {
+    padding-bottom: 80px;
+}
+
 .features h2 {
     text-align: center;
     padding: 50px 0;
     font-size: 35px;
     font-weight: bold;
     color: #031c4e;
+}
+
+.pricing h4 {
+    color: #132a58;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.pricing p:first-of-type {
+    color: #63708d;
+    font-weight: bold;
+}
+
+.pricing p:last-of-type {
+    color: #006aff;
+    font-weight: bold;
+}
+
+/* TABLE SECTION ------------------------------------------*/
+
+.table-section {
+    background-image: linear-gradient(90deg, #336cd0, #001e99)
+}
+
+.table-section h2 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.table-section .row {
+    padding-bottom: 80px;
+}
+
+.table-section table {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.table-section table tr:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+.table-section table td {
+    padding: 10px;
+}
+
+.td-1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.td-2 {
+    color: #98aee0;
+}
+
+.td-3 {
+    text-align: right;
+}
+
+.table-section table td a {
+    color: #13bbcc;
+    font-weight: bold;
 }
