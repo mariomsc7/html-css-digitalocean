@@ -536,15 +536,17 @@ footer {
     color: #7a859d;
     font-size: 25px;
     padding-right: 10px;
+    padding-bottom: 20px;
     margin-top: 15px;
 }
 
 /* COLUMNS */
 
-.company, .products, 
-.community, .support h5{
+.company h5, .products h5, 
+.community h5, .support h5{
     color: white;
     font-weight: 800;
+    padding-top: 30px;
 }
 
 .footer-box p a {
