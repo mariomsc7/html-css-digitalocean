@@ -506,3 +506,10 @@
 
 /* FOOTER -------------------------------------------------*/
 
+footer {
+    /* background-color: #031c4e; */
+}
+
+.footer-padding {
+    padding-top: 50px;
+}
