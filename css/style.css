@@ -215,6 +215,7 @@
 }
 
 .col-menu {
+    padding-left: 10px;
     border-left: 2px solid #cccccc;
 }
 
@@ -239,4 +240,80 @@
 
 .nested .row {
     padding-top: 0;
+}
+
+/* SLIDE 1 SECTION ----------------------------------------*/
+
+.slide-1 {
+    background-color: #f3f5f9;
+    text-align: center;
+}
+
+.slide-1 h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #031c4e;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.slide-1 h3 {
+    padding-bottom: 40px;
+    color: #5a6887;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.slide-img img {
+    max-width: 60%;
+}
+
+.slide-img a i {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.slide-img a:first-child {
+    color: #6f7b97;
+}
+
+.slide-img a:last-child {
+    color: #031c4e;
+}
+
+.slide-1 p {
+    padding-top: 20px;
+    color: #2a3f68;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pages ul {
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+.pages ul li {
+    display: inline-block;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+}
+
+.filled {
+    background-color: dodgerblue;
+}
+
+/* FEATURES SECTION ---------------------------------------*/
+
+.features h2 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: #031c4e;
 }
